@@ -199,6 +199,7 @@ header .burger-menu .burger-border div {
   header {
     padding-left: 19.55%;
     padding-right: 19.7%;
+    height: 105px;
   }
   header .burger-menu {
     display: none;
@@ -309,6 +310,52 @@ header .burger-menu .burger-border div {
   color: #FFFFFF;
 }
 
+@media (min-width: 1024px) {
+  .component-2 {
+    height: 760px;
+    padding-top: 240px;
+    position: relative;
+  }
+  .component-2 .component-2-content {
+    width: 714px;
+    margin-left: 17px;
+  }
+  .component-2 .component-2-content .header-light {
+    font-size: 62px;
+    margin-bottom: 7px;
+  }
+  .component-2 .component-2-content .header-bold {
+    font-size: 74px;
+    letter-spacing: -2px;
+    margin-left: -5px;
+    margin-bottom: 12px;
+  }
+  .component-2 .component-2-content p {
+    font-size: 20px;
+    letter-spacing: -0.16px;
+    margin-bottom: 37px;
+  }
+  .component-2 .component-2-content div {
+    width: 144px;
+    height: 44px;
+  }
+  .component-2 .component-2-content button {
+    width: 138px;
+    height: 38px;
+    font-size: 13px;
+  }
+  .component-2 .arrow-left,
+  .component-2 .arrow-right {
+    position: absolute;
+    top: 300px;
+  }
+  .component-2 .arrow-right {
+    right: 37px;
+  }
+  .component-2 .arrow-left {
+    left: 37px;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .component-2 {
     height: 212.5px;
@@ -344,6 +391,10 @@ header .burger-menu .burger-border div {
     height: 15px;
     font-size: 7px;
   }
+  .component-2 .arrow-left,
+  .component-2 .arrow-right {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .component-2 {
@@ -376,6 +427,10 @@ header .burger-menu .burger-border div {
     width: 138px;
     height: 38px;
     font-size: 13px;
+  }
+  .component-2 .arrow-left,
+  .component-2 .arrow-right {
+    display: none;
   }
 }
 
