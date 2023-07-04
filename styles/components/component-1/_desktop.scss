@@ -1,0 +1,26 @@
+@media #{$desktop} {
+
+    header {
+        padding-left: 19.55%;
+        padding-right: 19.7%;
+
+        .burger-menu {
+            display: none;
+        }
+
+        nav {
+            width: 735px;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 21.4px;
+
+            @include flex-row-between;
+
+            margin-top: -8px;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+}

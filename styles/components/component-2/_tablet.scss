@@ -1,0 +1,40 @@
+@media #{$tablet} {
+    .component-2 {
+        height: 591px;
+
+        .component-2-content {
+            width: 676px;
+            margin-top: -27px;
+
+            .header-light {
+                font-size: 59px;
+                margin-top: 10px;
+            }
+
+            .header-bold {
+                font-size: 71.77px;
+                letter-spacing: -2px;
+                margin-left: -5px;
+                margin-top: -5px;
+            }
+
+            p {
+                font-size: 19px;
+                letter-spacing: -0.16px;
+                margin-top: 10px;
+                margin-bottom: 36px;
+            }
+
+            div {
+                width: 144px;
+                height: 44px;
+            }
+
+            button {
+                width: 138px;
+                height: 38px;
+                font-size: 13px;
+            }
+        }
+    }
+}

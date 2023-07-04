@@ -1,0 +1,42 @@
+.component-2 {
+    width: 100%;
+    background-color: $bg-grey;
+
+    color: $white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    @include flex-center;
+
+    .component-2-content {
+
+        @include flex-center;
+
+        .header-light {
+            font-weight: 200;
+        }
+
+        .header-bold {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        p {
+            font-weight: 300;
+        }
+
+        div {
+            background-color: $cyan;
+            @include flex-center;
+        }
+
+        button {
+            border: 1px solid $white;
+            text-transform: uppercase;
+            background-color: transparent;
+            color: $white;
+        }
+    }
+
+
+
+}

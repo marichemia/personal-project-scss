@@ -1,0 +1,24 @@
+@media #{$tablet} {
+    header {
+        padding: 29px 26px 34px 25px;
+
+        nav {
+            display: none;
+        }
+
+        .burger-menu {
+            width: 56px;
+            height: 39px;
+
+            .burger-border {
+                width: 52.5px;
+                height: 35.5px;
+
+                div {
+                    width: 58%;
+                }
+            }
+        }
+
+    }
+}
