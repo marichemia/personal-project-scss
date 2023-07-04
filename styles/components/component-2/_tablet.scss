@@ -1,28 +1,27 @@
 @media #{$tablet} {
     .component-2 {
         height: 591px;
+        padding-top: 157px;
 
         .component-2-content {
             width: 676px;
-            margin-top: -27px;
 
             .header-light {
                 font-size: 59px;
-                margin-top: 10px;
+                margin-bottom: 7px;
             }
 
             .header-bold {
                 font-size: 71.77px;
                 letter-spacing: -2px;
                 margin-left: -5px;
-                margin-top: -5px;
+                margin-bottom: 12px;
             }
 
             p {
                 font-size: 19px;
                 letter-spacing: -0.16px;
-                margin-top: 10px;
-                margin-bottom: 36px;
+                margin-bottom: 37px;
             }
 
             div {

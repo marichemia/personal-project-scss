@@ -5,7 +5,9 @@
     color: $white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    @include flex-center;
+
+    @include flex-column;
+    align-items: center;
 
     .component-2-content {
 

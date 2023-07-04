@@ -278,7 +278,6 @@ header .burger-menu .burger-border div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .component-2 .component-2-content {
   display: flex;
@@ -313,6 +312,7 @@ header .burger-menu .burger-border div {
 @media (min-width: 320px) and (max-width: 767px) {
   .component-2 {
     height: 212.5px;
+    padding-top: 59px;
   }
   .component-2 .component-2-content {
     width: 264px;
@@ -348,26 +348,25 @@ header .burger-menu .burger-border div {
 @media (min-width: 768px) and (max-width: 1023px) {
   .component-2 {
     height: 591px;
+    padding-top: 157px;
   }
   .component-2 .component-2-content {
     width: 676px;
-    margin-top: -27px;
   }
   .component-2 .component-2-content .header-light {
     font-size: 59px;
-    margin-top: 10px;
+    margin-bottom: 7px;
   }
   .component-2 .component-2-content .header-bold {
     font-size: 71.77px;
     letter-spacing: -2px;
     margin-left: -5px;
-    margin-top: -5px;
+    margin-bottom: 12px;
   }
   .component-2 .component-2-content p {
     font-size: 19px;
     letter-spacing: -0.16px;
-    margin-top: 10px;
-    margin-bottom: 36px;
+    margin-bottom: 37px;
   }
   .component-2 .component-2-content div {
     width: 144px;
