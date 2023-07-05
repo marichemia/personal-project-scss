@@ -11,6 +11,26 @@
         }
     }
 
+    .speaker-icon::before,
+    .speaker-icon::after {
+        content: "";
+        background-color: $lines;
+        width: 33px;
+        height: 1px;
+        display: inline-block;
+    }
+
+    .speaker-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 33px;
+
+        img {
+            margin: 0 7px;
+        }
+    }
+
     .img-placeholder {
         background-color: $black;
     }
@@ -24,6 +44,8 @@
     p {
         font-family: 'Open Sans', sans-serif;
         line-height: 23px;
+        line-height: 23px;
+        font-size: 13px;
         color: $component-three-grey;
     }
 
@@ -32,6 +54,7 @@
         ul {
             @include flex-column;
             justify-content: space-between;
+
 
             li {
                 @include flex-row;
@@ -43,6 +66,10 @@
         button {
             background-color: $cyan;
             @include flex-center;
+
+            width: 138px;
+            height: 42px;
+
         }
     }
 }

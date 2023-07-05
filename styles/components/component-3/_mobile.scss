@@ -5,31 +5,11 @@
         align-items: center;
         width: 280px;
         margin-left: calc(50% - 140px);
-        margin-bottom: 42px;
+        margin-bottom: 75px;
 
         h3 {
             font-size: 27px;
             margin-bottom: 15px;
-        }
-
-        .speaker-icon::before,
-        .speaker-icon::after {
-            content: "";
-            background-color: $lines;
-            width: 33px;
-            height: 1px;
-            display: inline-block;
-        }
-
-        .speaker-icon {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin-bottom: 33px;
-
-            img {
-                margin: 0 7px;
-            }
         }
 
         .img-placeholder {
@@ -54,11 +34,6 @@
             display: none;
         }
 
-        p {
-            line-height: 23px;
-            font-size: 13px;
-        }
-
         .mobile-txt {
             ul {
                 height: 179px;
@@ -78,11 +53,6 @@
                         margin-top: 10px;
                     }
                 }
-            }
-
-            button {
-                width: 138px;
-                height: 42px;
             }
         }
     }

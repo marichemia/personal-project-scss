@@ -1,0 +1,19 @@
+@media #{$desktop} {
+    .component-3 {
+        @include flex-column;
+        align-items: center;
+        padding-top: 112px;
+
+        h3 {
+            font-size: 31px;
+            margin-bottom: 15px;
+        }
+
+        .mobile-txt,
+        .tablet-txt,
+        .divider-line,
+        h4 {
+            display: none;
+        }
+    }
+}
