@@ -1,0 +1,32 @@
+@media #{$mobile} {
+    .component-4 {
+        h3 {
+            font-size: 27px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 11px;
+        }
+
+        .services-container {
+            width: 280px;
+            @include flex-column;
+            align-items: center;
+        }
+
+        .hexagon-container {
+            margin-bottom: 78px;
+            margin-left: 80px;
+        }
+
+        h4 {
+            font-size: 19px;
+            margin-bottom: 11px;
+            margin-left: 26px;
+        }
+
+        .service {
+            margin-bottom: 39px;
+        }
+
+    }
+}
