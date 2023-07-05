@@ -1,0 +1,53 @@
+@media #{$tablet} {
+    .component-4 {
+
+        padding-top: 75px;
+
+        h3 {
+            font-size: 29px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 14px;
+        }
+
+        .services-icon {
+            margin-bottom: 96px;
+        }
+
+        .services-container {
+            width: 280px;
+            @include flex-column;
+            align-items: center;
+        }
+
+        .hexagon-container {
+            margin-bottom: 84px;
+            margin-left: 80px;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin-bottom: 14px;
+            margin-left: -4px;
+        }
+
+        .service {
+            margin-bottom: 107px;
+
+            &:last-of-type {
+                margin-top: 5px;
+                margin-bottom: 70px;
+            }
+
+            &:nth-of-type(2) {
+                .hexagon-icon {
+                    top: 25px;
+                    left: 45px;
+                }
+            }
+        }
+
+
+
+    }
+}

@@ -510,7 +510,7 @@ header .burger-menu .burger-border div {
     flex-direction: column;
     align-items: center;
     padding-top: 112px;
-    margin-bottom: 123px;
+    margin-bottom: 106px;
   }
   .component-3 h3 {
     font-size: 31px;
@@ -692,6 +692,9 @@ header .burger-menu .burger-border div {
     align-self: flex-start;
     margin-top: 2px;
   }
+  .component-3 button {
+    margin-bottom: 75px;
+  }
 }
 .component-4 {
   display: flex;
@@ -700,7 +703,6 @@ header .burger-menu .burger-border div {
   background-color: #000000;
   color: #FFFFFF;
   font-family: "Raleway", sans-serif;
-  padding-top: 39px;
 }
 .component-4 .services-icon::before,
 .component-4 .services-icon::after {
@@ -714,7 +716,6 @@ header .burger-menu .burger-border div {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 89px;
 }
 .component-4 .services-icon img {
   margin: 0 7px;
@@ -785,11 +786,17 @@ header .burger-menu .burger-border div {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .component-4 {
+    padding-top: 39px;
+  }
   .component-4 h3 {
     font-size: 27px;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 11px;
+  }
+  .component-4 .services-icon {
+    margin-bottom: 89px;
   }
   .component-4 .services-container {
     width: 280px;
@@ -812,6 +819,46 @@ header .burger-menu .burger-border div {
   .component-4 .service:last-of-type {
     margin-top: 10px;
     margin-bottom: 36px;
+  }
+  .component-4 .service:nth-of-type(2) .hexagon-icon {
+    top: 25px;
+    left: 45px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .component-4 {
+    padding-top: 75px;
+  }
+  .component-4 h3 {
+    font-size: 29px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  .component-4 .services-icon {
+    margin-bottom: 96px;
+  }
+  .component-4 .services-container {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .component-4 .hexagon-container {
+    margin-bottom: 84px;
+    margin-left: 80px;
+  }
+  .component-4 h4 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-left: -4px;
+  }
+  .component-4 .service {
+    margin-bottom: 107px;
+  }
+  .component-4 .service:last-of-type {
+    margin-top: 5px;
+    margin-bottom: 70px;
   }
   .component-4 .service:nth-of-type(2) .hexagon-icon {
     top: 25px;

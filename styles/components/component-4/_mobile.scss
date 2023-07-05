@@ -1,10 +1,17 @@
 @media #{$mobile} {
     .component-4 {
+
+        padding-top: 39px;
+
         h3 {
             font-size: 27px;
             text-transform: uppercase;
             font-weight: 600;
             margin-bottom: 11px;
+        }
+
+        .services-icon {
+            margin-bottom: 89px;
         }
 
         .services-container {
