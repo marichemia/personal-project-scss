@@ -762,7 +762,7 @@ header .burger-menu .burger-border div {
 .component-4 .hexagon:after {
   content: "";
   position: absolute;
-  bottom: -34.5px;
+  bottom: -33px;
   left: 0;
   width: 0;
   height: 0;
@@ -785,6 +785,56 @@ header .burger-menu .burger-border div {
   letter-spacing: 0.45px;
 }
 
+@media (min-width: 1024px) {
+  .component-4 {
+    padding-top: 143px;
+  }
+  .component-4 h3 {
+    font-size: 31px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  .component-4 .services-icon {
+    margin-bottom: 174px;
+  }
+  .component-4 .services-container {
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+  .component-4 .hexagon-container {
+    margin-bottom: 76px;
+    margin-left: 80px;
+  }
+  .component-4 .hexagon-container .hexagon {
+    height: 80px;
+  }
+  .component-4 .hexagon-container .hexagon .hexagon-icon {
+    top: 30px;
+    left: 46px;
+  }
+  .component-4 .hexagon-hover {
+    height: 150px;
+  }
+  .component-4 h4 {
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-left: -4px;
+  }
+  .component-4 .service {
+    margin-bottom: 107px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1180px) {
+  .component-4 .services-container {
+    width: 100%;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .component-4 {
     padding-top: 39px;

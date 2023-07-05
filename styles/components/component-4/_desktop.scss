@@ -1,0 +1,59 @@
+@media #{$desktop} {
+    .component-4 {
+
+        padding-top: 143px;
+
+        h3 {
+            font-size: 31px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        .services-icon {
+            margin-bottom: 174px;
+        }
+
+        .services-container {
+            width: 1160px;
+            @include flex-row-between;
+            align-items: center;
+            margin-bottom: 45px;
+        }
+
+        .hexagon-container {
+            margin-bottom: 76px;
+            margin-left: 80px;
+
+            .hexagon {
+                height: 80px;
+
+                .hexagon-icon {
+                    top: 30px;
+                    left: 46px;
+                }
+            }
+        }
+
+        .hexagon-hover {
+            height: 150px;
+        }
+
+        h4 {
+            font-size: 20px;
+            margin-bottom: 14px;
+            margin-left: -4px;
+        }
+
+        .service {
+            margin-bottom: 107px;
+        }
+
+        @media (max-width:1180px) {
+            .services-container {
+                width: 100%;
+            }
+        }
+
+    }
+}
