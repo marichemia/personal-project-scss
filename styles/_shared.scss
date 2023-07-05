@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:wght@200;300;600&display=swap');
 
 @mixin flex-center {
     display: flex;
@@ -10,6 +10,11 @@
 @mixin flex-column {
     display: flex;
     flex-direction: column;
+}
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
 }
 
 @mixin flex-row-between {
@@ -30,5 +35,13 @@ body {
     header,
     footer {
         width: 100%;
+    }
+
+    button {
+        text-transform: uppercase;
+        color: $white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        border: none;
     }
 }
