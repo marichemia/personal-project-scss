@@ -510,6 +510,7 @@ header .burger-menu .burger-border div {
     flex-direction: column;
     align-items: center;
     padding-top: 112px;
+    margin-bottom: 123px;
   }
   .component-3 h3 {
     font-size: 31px;
