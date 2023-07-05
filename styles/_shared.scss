@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:wght@200;300;600;700&display=swap');
 
 @mixin flex-center {
     display: flex;
@@ -30,6 +30,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 
     section,
     header,

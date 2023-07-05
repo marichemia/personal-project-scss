@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:wght@200;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:wght@200;300;600;700&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -141,6 +141,7 @@ table {
 body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 body section,
 body header,
@@ -514,11 +515,82 @@ header .burger-menu .burger-border div {
     font-size: 31px;
     margin-bottom: 15px;
   }
+  .component-3 .speaker-icon {
+    margin-bottom: 96px;
+  }
   .component-3 .mobile-txt,
   .component-3 .tablet-txt,
   .component-3 .divider-line,
   .component-3 h4 {
     display: none;
+  }
+  .component-3 .desktop-txt {
+    display: flex;
+    flex-direction: row;
+    margin-left: -7px;
+  }
+  .component-3 .desktop-txt .image {
+    width: 510px;
+    height: 414px;
+    background-image: url(../../../assets/component-3/computer-img.png);
+    margin-right: 92px;
+  }
+  .component-3 .desktop-txt .info {
+    width: 630px;
+    margin-right: -64px;
+  }
+  .component-3 .desktop-txt .info h3 {
+    letter-spacing: -0.6px;
+    margin-bottom: 24px;
+  }
+  .component-3 .desktop-txt .info > p {
+    font-size: 14px;
+    line-height: 27px;
+    width: 572px;
+    margin-bottom: 44px;
+  }
+  .component-3 .desktop-txt .info .features-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .component-3 .desktop-txt .info .features-container .feature {
+    display: flex;
+    flex-direction: row;
+    width: 275.5px;
+    margin-bottom: 49px;
+  }
+  .component-3 .desktop-txt .info .features-container .feature:first-child, .component-3 .desktop-txt .info .features-container .feature:nth-child(3) {
+    margin-right: 30px;
+  }
+  .component-3 .desktop-txt .info .features-container .feature img {
+    margin-right: 28px;
+  }
+  .component-3 .desktop-txt .info .features-container .feature h6 {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 2px;
+  }
+  .component-3 .desktop-txt .info .features-container .feature p {
+    line-height: 22px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .image {
+    width: 357px !important;
+    height: 289.8px !important;
+    background-size: cover !important;
+  }
+  .info {
+    margin: 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1058px) {
+  .image {
+    margin-right: 10px !important;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
