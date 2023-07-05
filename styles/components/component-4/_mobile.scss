@@ -21,12 +21,26 @@
         h4 {
             font-size: 19px;
             margin-bottom: 11px;
-            margin-left: 26px;
+            margin-left: -4px;
         }
 
         .service {
-            margin-bottom: 39px;
+            margin-bottom: 71px;
+
+            &:last-of-type {
+                margin-top: 10px;
+                margin-bottom: 36px;
+            }
+
+            &:nth-of-type(2) {
+                .hexagon-icon {
+                    top: 25px;
+                    left: 45px;
+                }
+            }
         }
+
+
 
     }
 }

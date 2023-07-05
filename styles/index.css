@@ -737,6 +737,13 @@ header .burger-menu .burger-border div {
   z-index: 10;
   visibility: visible;
 }
+.component-4 .hexagon .hexagon-icon {
+  position: absolute;
+  top: 21px;
+  left: 49px;
+  z-index: 10;
+  visibility: visible;
+}
 .component-4 .hexagon-container:hover .hexagon {
   visibility: visible;
 }
@@ -766,6 +773,7 @@ header .burger-menu .burger-border div {
   color: #3AB6B2;
   text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
 }
 .component-4 p {
   font-family: "Open Sans", sans-serif;
@@ -796,10 +804,18 @@ header .burger-menu .burger-border div {
   .component-4 h4 {
     font-size: 19px;
     margin-bottom: 11px;
-    margin-left: 26px;
+    margin-left: -4px;
   }
   .component-4 .service {
-    margin-bottom: 39px;
+    margin-bottom: 71px;
+  }
+  .component-4 .service:last-of-type {
+    margin-top: 10px;
+    margin-bottom: 36px;
+  }
+  .component-4 .service:nth-of-type(2) .hexagon-icon {
+    top: 25px;
+    left: 45px;
   }
 }
 
