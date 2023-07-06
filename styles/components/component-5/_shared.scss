@@ -36,21 +36,18 @@
                 height: 100%;
 
                 .socials {
-                    height: 68%;
                     width: 100%;
                     background-color: $bg-grey;
                     @include flex-center;
 
-                    .icons-container {
-                        width: 91px;
-                        height: 30px;
+                    .icons-container,
+                    .icons-tablet-desktop {
                         @include flex-row-between;
                     }
                 }
 
                 .category {
                     width: 100%;
-                    height: 32%;
                     background-color: $black;
 
                     @include flex-center;
@@ -61,16 +58,13 @@
                     text-align: center;
 
                     h6 {
-                        font-size: 14px;
                         color: $white;
                         text-transform: uppercase;
-                        line-height: 26.5px;
                     }
 
                     p {
                         font-style: italic;
                         color: $cyan;
-                        font-size: 11px;
                     }
                 }
             }

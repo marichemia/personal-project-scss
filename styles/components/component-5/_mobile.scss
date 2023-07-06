@@ -30,6 +30,29 @@
 
                 .hover {
                     display: none;
+
+                    .socials {
+                        height: 68%;
+
+                        .icons-container {
+                            width: 91px;
+                            height: 30px;
+                        }
+
+                    }
+
+                    .category {
+                        height: 32%;
+
+                        h6 {
+                            font-size: 14px;
+                            line-height: 26.5px;
+                        }
+
+                        p {
+                            font-size: 11px;
+                        }
+                    }
                 }
 
                 &:hover .hover {

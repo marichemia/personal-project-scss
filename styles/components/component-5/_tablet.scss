@@ -1,0 +1,75 @@
+@media #{$tablet} {
+    .component-5 {
+
+        padding-top: 76px;
+
+        h3 {
+            font-size: 29px;
+            margin-bottom: 12px;
+        }
+
+        .portfolio-icon {
+            margin-bottom: 58px
+        }
+
+        .cards-container {
+
+            width: 718px;
+            @include flex-row-between;
+            flex-wrap: wrap;
+
+
+            .card:last-of-type {
+                display: none;
+            }
+
+            .card {
+                width: 225px;
+                height: 229px;
+                margin-bottom: 19px;
+
+                .hover {
+                    display: none;
+
+                    .socials {
+                        height: 75%;
+
+                        .icons-container {
+                            display: none;
+                        }
+
+                        .icons-tablet-desktop {
+                            width: 82px;
+                            height: 37px;
+                        }
+
+                    }
+
+                    .category {
+                        height: 25%;
+
+                        h6 {
+                            font-size: 12px;
+                            line-height: 21.6px;
+                        }
+
+                        h6::before {
+                            content: "A ";
+                        }
+
+                        p {
+                            font-size: 10px;
+                            line-height: 21.6px;
+                        }
+                    }
+                }
+
+                &:hover .hover {
+                    display: block;
+                }
+            }
+        }
+
+
+    }
+}
