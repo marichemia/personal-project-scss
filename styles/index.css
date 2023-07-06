@@ -1019,6 +1019,9 @@ header .burger-menu .burger-border div {
     width: 91px;
     height: 30px;
   }
+  .component-5 .cards-container .card .hover .socials .icons-tablet-desktop {
+    display: none;
+  }
   .component-5 .cards-container .card .hover .category {
     height: 32%;
   }
@@ -1072,6 +1075,8 @@ header .burger-menu .burger-border div {
   .component-5 .cards-container .card .hover .socials .icons-tablet-desktop {
     width: 82px;
     height: 37px;
+    margin-left: -7px;
+    margin-top: 24px;
   }
   .component-5 .cards-container .card .hover .category {
     height: 25%;
