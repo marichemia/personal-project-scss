@@ -4,7 +4,7 @@
         padding-top: 157px;
 
         .component-2-content {
-            width: 676px;
+            width: auto;
 
             .header-light {
                 font-size: 59px;
@@ -16,6 +16,10 @@
                 letter-spacing: -2px;
                 margin-left: -5px;
                 margin-bottom: 12px;
+            }
+
+            .p-mobile {
+                display: none;
             }
 
             p {

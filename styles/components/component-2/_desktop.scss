@@ -5,7 +5,7 @@
         position: relative;
 
         .component-2-content {
-            width: 714px;
+            width: auto;
             margin-left: 17px;
 
             .header-light {
@@ -18,6 +18,10 @@
                 letter-spacing: -2px;
                 margin-left: -5px;
                 margin-bottom: 12px;
+            }
+
+            .p-mobile {
+                display: none;
             }
 
             p {

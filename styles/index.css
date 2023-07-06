@@ -325,7 +325,7 @@ header .burger-menu .burger-border div {
     position: relative;
   }
   .component-2 .component-2-content {
-    width: 714px;
+    width: auto;
     margin-left: 17px;
   }
   .component-2 .component-2-content .header-light {
@@ -337,6 +337,9 @@ header .burger-menu .burger-border div {
     letter-spacing: -2px;
     margin-left: -5px;
     margin-bottom: 12px;
+  }
+  .component-2 .component-2-content .p-mobile {
+    display: none;
   }
   .component-2 .component-2-content p {
     font-size: 20px;
@@ -370,7 +373,7 @@ header .burger-menu .burger-border div {
     padding-top: 59px;
   }
   .component-2 .component-2-content {
-    width: 264px;
+    width: auto;
     height: auto;
     margin-top: -15px;
     margin-left: -2px;
@@ -384,10 +387,12 @@ header .burger-menu .burger-border div {
     line-height: 36px;
     letter-spacing: -0.8px;
   }
+  .component-2 .component-2-content .p-desktop-tablet {
+    display: none;
+  }
   .component-2 .component-2-content p {
     font-size: 9px;
     line-height: 10.8px;
-    letter-spacing: -0.16px;
     margin-bottom: 16px;
   }
   .component-2 .component-2-content div {
@@ -410,7 +415,7 @@ header .burger-menu .burger-border div {
     padding-top: 157px;
   }
   .component-2 .component-2-content {
-    width: 676px;
+    width: auto;
   }
   .component-2 .component-2-content .header-light {
     font-size: 59px;
@@ -421,6 +426,9 @@ header .burger-menu .burger-border div {
     letter-spacing: -2px;
     margin-left: -5px;
     margin-bottom: 12px;
+  }
+  .component-2 .component-2-content .p-mobile {
+    display: none;
   }
   .component-2 .component-2-content p {
     font-size: 19px;
