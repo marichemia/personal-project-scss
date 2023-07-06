@@ -1456,6 +1456,30 @@ header .burger-menu .burger-border div {
   letter-spacing: 0.1px;
 }
 
+@media (min-width: 1024px) {
+  .component-7 {
+    height: 298px;
+    padding-top: 48px;
+  }
+  .component-7 .logo {
+    font-size: 36px;
+    margin-bottom: 46px;
+  }
+  .component-7 .logo img {
+    width: 25px;
+    height: 38px;
+  }
+  .component-7 .icons-container {
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 42px;
+    margin-left: 5px;
+  }
+  .component-7 p {
+    font-size: 11px;
+    margin-left: -9px;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .component-7 {
     height: 312px;
