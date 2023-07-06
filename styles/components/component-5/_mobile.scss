@@ -1,0 +1,43 @@
+@media #{$mobile} {
+    .component-5 {
+
+        padding-top: 39px;
+
+        h3 {
+            font-size: 27px;
+            margin-bottom: 12px;
+        }
+
+        .portfolio-icon {
+            margin-bottom: 35px
+        }
+
+        .cards-container {
+
+            @include flex-column;
+            align-items: center;
+
+            .card:last-of-type,
+            .card:nth-last-child(2),
+            .card:nth-last-child(3) {
+                display: none;
+            }
+
+            .card {
+                width: 280px;
+                height: 163px;
+                margin-bottom: 8px;
+
+                .hover {
+                    display: none;
+                }
+
+                &:hover .hover {
+                    display: block;
+                }
+            }
+        }
+
+
+    }
+}
