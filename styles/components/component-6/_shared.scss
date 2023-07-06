@@ -1,0 +1,73 @@
+.component-6 {
+    @include flex-column;
+    align-items: center;
+
+    h3 {
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+    }
+
+    .contact-icon::before,
+    .contact-icon::after {
+        content: "";
+        background-color: $lines;
+        width: 37px;
+        height: 1px;
+        display: inline-block;
+    }
+
+    .contact-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            margin: 0 7px;
+        }
+    }
+
+    .contact-info {
+        .info-card {
+            @include flex-column;
+            align-items: center;
+
+            p {
+                text-align: center;
+                color: $component-six-grey;
+                font-family: 'Raleway';
+                font-weight: 500;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+
+    form {
+        .input-field input {
+            height: 46px;
+            border: 1px solid $input-border;
+        }
+
+        .textarea textarea {
+            height: 141px;
+            border: 1px solid $input-border;
+        }
+
+        .input-field,
+        .textarea {
+            position: relative;
+
+            span {
+                position: absolute;
+                color: $placeholder-color;
+                font-family: 'Raleway';
+                font-weight: 400;
+                letter-spacing: 0.6;
+            }
+        }
+
+        button {
+            background-color: $cyan;
+        }
+    }
+}

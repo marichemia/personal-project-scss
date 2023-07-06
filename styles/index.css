@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:ital,wght@0,200;0,300;0,600;0,700;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&family=Raleway:ital,wght@0,200;0,300;0,500;0,600;0,700;1,600&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -1169,6 +1169,119 @@ header .burger-menu .burger-border div {
   }
   .component-5 .cards-container .card:hover .hover {
     display: block;
+  }
+}
+.component-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component-6 h3 {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.component-6 .contact-icon::before,
+.component-6 .contact-icon::after {
+  content: "";
+  background-color: #D3D3D3;
+  width: 37px;
+  height: 1px;
+  display: inline-block;
+}
+.component-6 .contact-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.component-6 .contact-icon img {
+  margin: 0 7px;
+}
+.component-6 .contact-info .info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component-6 .contact-info .info-card p {
+  text-align: center;
+  color: #606060;
+  font-family: "Raleway";
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.component-6 form .input-field input {
+  height: 46px;
+  border: 1px solid #D4D4D4;
+}
+.component-6 form .textarea textarea {
+  height: 141px;
+  border: 1px solid #D4D4D4;
+}
+.component-6 form .input-field,
+.component-6 form .textarea {
+  position: relative;
+}
+.component-6 form .input-field span,
+.component-6 form .textarea span {
+  position: absolute;
+  color: #7C7C7C;
+  font-family: "Raleway";
+  font-weight: 400;
+  letter-spacing: 0.6;
+}
+.component-6 form button {
+  background-color: #3AB6B2;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .component-6 {
+    padding-top: 35px;
+  }
+  .component-6 h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .component-6 .contact-icon {
+    margin-bottom: 43px;
+  }
+  .component-6 .contact-info {
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .component-6 .contact-info img {
+    margin-bottom: 21px;
+  }
+  .component-6 .contact-info p {
+    font-size: 15px;
+    line-height: 24px;
+    width: 229px;
+  }
+  .component-6 form {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .component-6 form .input-field input,
+  .component-6 form .textarea textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .component-6 form .input-field span {
+    font-size: 14px;
+    top: 15px;
+    left: 10px;
+  }
+  .component-6 form .textarea {
+    margin-bottom: -3px;
+  }
+  .component-6 form button {
+    width: 160px;
+    height: 42px;
+    margin-bottom: 42px;
   }
 }
 
