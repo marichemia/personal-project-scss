@@ -983,6 +983,81 @@ header .burger-menu .burger-border div {
   color: #3AB6B2;
 }
 
+@media (min-width: 1024px) {
+  .component-5 {
+    padding-top: 107px;
+  }
+  .component-5 h3 {
+    font-size: 31px;
+    margin-bottom: 12px;
+  }
+  .component-5 .portfolio-icon {
+    margin-bottom: 84px;
+  }
+  .component-5 .cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .component-5 .cards-container .card {
+    height: 379px;
+    margin-bottom: 8px;
+  }
+  .component-5 .cards-container .card:nth-of-type(1), .component-5 .cards-container .card:nth-of-type(3), .component-5 .cards-container .card:nth-of-type(5) {
+    width: 39.8%;
+  }
+  .component-5 .cards-container .card:nth-of-type(2), .component-5 .cards-container .card:nth-of-type(4), .component-5 .cards-container .card:nth-of-type(6), .component-5 .cards-container .card:nth-of-type(7) {
+    width: 19.65%;
+  }
+  .component-5 .cards-container .card .hover {
+    display: none;
+  }
+  .component-5 .cards-container .card .hover .socials {
+    height: 80%;
+  }
+  .component-5 .cards-container .card .hover .socials .icons-container {
+    display: none;
+  }
+  .component-5 .cards-container .card .hover .socials .icons-tablet-desktop {
+    width: 103px;
+    height: 46px;
+    margin-left: -19px;
+    margin-top: 63px;
+  }
+  .component-5 .cards-container .card .hover .socials .icons-tablet-desktop img {
+    width: 46px;
+    height: 46px;
+  }
+  .component-5 .cards-container .card .hover .category {
+    height: 20%;
+  }
+  .component-5 .cards-container .card .hover .category h6 {
+    font-size: 17px;
+    line-height: 29px;
+    margin-left: -8px;
+    margin-top: -5px;
+  }
+  .component-5 .cards-container .card .hover .category h6::before {
+    content: "A ";
+  }
+  .component-5 .cards-container .card .hover .category p {
+    font-size: 13px;
+  }
+  .component-5 .cards-container .card:hover .hover {
+    display: block;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .component-5 .category h6 {
+    font-size: 12px !important;
+  }
+  .component-5 .category p {
+    font-size: 10px !important;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .component-5 {
     padding-top: 39px;

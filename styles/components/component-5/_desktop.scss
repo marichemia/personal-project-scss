@@ -1,0 +1,102 @@
+@media #{$desktop} {
+    .component-5 {
+
+        padding-top: 107px;
+
+        h3 {
+            font-size: 31px;
+            margin-bottom: 12px;
+        }
+
+        .portfolio-icon {
+            margin-bottom: 84px;
+        }
+
+        .cards-container {
+
+            width: 100%;
+            @include flex-row-between;
+            flex-wrap: wrap;
+
+            .card {
+                height: 379px;
+                margin-bottom: 8px;
+
+                &:nth-of-type(1),
+                &:nth-of-type(3),
+                &:nth-of-type(5) {
+                    width: 39.8%;
+                }
+
+                &:nth-of-type(2),
+                &:nth-of-type(4),
+                &:nth-of-type(6),
+                &:nth-of-type(7) {
+                    width: 19.65%;
+                }
+
+
+
+                .hover {
+                    display: none;
+
+                    .socials {
+                        height: 80%;
+
+                        .icons-container {
+                            display: none;
+                        }
+
+                        .icons-tablet-desktop {
+                            width: 103px;
+                            height: 46px;
+                            margin-left: -19px;
+                            margin-top: 63px;
+
+                            img {
+                                width: 46px;
+                                height: 46px;
+                            }
+                        }
+
+                    }
+
+                    .category {
+                        height: 20%;
+
+                        h6 {
+                            font-size: 17px;
+                            line-height: 29px;
+                            margin-left: -8px;
+                            margin-top: -5px;
+                        }
+
+                        h6::before {
+                            content: "A ";
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                &:hover .hover {
+                    display: block;
+                }
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .category {
+                h6 {
+                    font-size: 12px !important;
+                }
+
+                p {
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+}
