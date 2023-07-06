@@ -1,0 +1,78 @@
+@media #{$tablet} {
+    .component-6 {
+        padding-top: 62px;
+
+        h3 {
+            font-size: 29px;
+            margin-bottom: 15px;
+        }
+
+        .contact-icon {
+            margin-bottom: 54px;
+        }
+
+        .contact-info {
+            width: 719px;
+            @include flex-row-between;
+            align-items: first baseline;
+            margin-bottom: 47px;
+            margin-left: -5px;
+
+            img {
+                margin-bottom: 21px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+
+        form {
+            @include flex-row;
+            flex-wrap: wrap;
+            width: 719px;
+
+            .input-field input,
+            .textarea textarea {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .input-field {
+
+                margin-bottom: 5px;
+
+                &:first-of-type {
+                    margin-right: 2%;
+                }
+
+                &:nth-of-type(2),
+                &:nth-of-type(1) {
+                    display: inline-block;
+                    width: 49%;
+                }
+
+                span {
+                    font-size: 14px;
+                    top: 15px;
+                    left: 10px;
+                }
+            }
+
+            textarea {
+                height: 171px !important;
+            }
+
+            .textarea {
+                margin-bottom: 2px;
+            }
+
+            button {
+                width: 160px;
+                height: 42px;
+                margin-bottom: 83px;
+            }
+        }
+    }
+}

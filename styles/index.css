@@ -1220,6 +1220,7 @@ header .burger-menu .burger-border div {
 .component-6 form .input-field,
 .component-6 form .textarea {
   position: relative;
+  width: 100%;
 }
 .component-6 form .input-field span,
 .component-6 form .textarea span {
@@ -1233,6 +1234,71 @@ header .burger-menu .burger-border div {
   background-color: #3AB6B2;
 }
 
+@media (min-width: 1024px) {
+  .component-6 {
+    padding-top: 87px;
+  }
+  .component-6 h3 {
+    font-size: 31px;
+    margin-bottom: 14px;
+  }
+  .component-6 .contact-icon {
+    margin-bottom: 89px;
+  }
+  .component-6 .contact-info {
+    width: 760px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 79px;
+    margin-left: -5px;
+  }
+  .component-6 .contact-info img {
+    margin-bottom: 21px;
+  }
+  .component-6 .contact-info p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .component-6 form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 945px;
+  }
+  .component-6 form .input-field input,
+  .component-6 form .textarea textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .component-6 form .input-field {
+    margin-bottom: 5px;
+  }
+  .component-6 form .input-field:first-of-type {
+    margin-right: 2%;
+  }
+  .component-6 form .input-field:nth-of-type(2), .component-6 form .input-field:nth-of-type(1) {
+    display: inline-block;
+    width: 49%;
+  }
+  .component-6 form .input-field span {
+    font-size: 14px;
+    top: 15px;
+    left: 10px;
+  }
+  .component-6 form textarea {
+    height: 171px !important;
+  }
+  .component-6 form .textarea {
+    margin-bottom: 2px;
+  }
+  .component-6 form button {
+    width: 160px;
+    height: 42px;
+    margin-bottom: 121px;
+  }
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .component-6 {
     padding-top: 35px;
@@ -1282,6 +1348,72 @@ header .burger-menu .burger-border div {
     width: 160px;
     height: 42px;
     margin-bottom: 42px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .component-6 {
+    padding-top: 62px;
+  }
+  .component-6 h3 {
+    font-size: 29px;
+    margin-bottom: 15px;
+  }
+  .component-6 .contact-icon {
+    margin-bottom: 54px;
+  }
+  .component-6 .contact-info {
+    width: 719px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: first baseline;
+    margin-bottom: 47px;
+    margin-left: -5px;
+  }
+  .component-6 .contact-info img {
+    margin-bottom: 21px;
+  }
+  .component-6 .contact-info p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .component-6 form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 719px;
+  }
+  .component-6 form .input-field input,
+  .component-6 form .textarea textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .component-6 form .input-field {
+    margin-bottom: 5px;
+  }
+  .component-6 form .input-field:first-of-type {
+    margin-right: 2%;
+  }
+  .component-6 form .input-field:nth-of-type(2), .component-6 form .input-field:nth-of-type(1) {
+    display: inline-block;
+    width: 49%;
+  }
+  .component-6 form .input-field span {
+    font-size: 14px;
+    top: 15px;
+    left: 10px;
+  }
+  .component-6 form textarea {
+    height: 171px !important;
+  }
+  .component-6 form .textarea {
+    margin-bottom: 2px;
+  }
+  .component-6 form button {
+    width: 160px;
+    height: 42px;
+    margin-bottom: 83px;
   }
 }
 
