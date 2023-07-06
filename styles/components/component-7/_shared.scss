@@ -1,0 +1,50 @@
+.component-7 {
+
+    @include flex-column;
+    align-items: center;
+
+    background-color: $footer-bg;
+    width: 100%;
+
+    padding-top: 42px;
+
+    .logo {
+        text-transform: uppercase;
+        color: $white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 32.5px;
+        letter-spacing: 0.1px;
+        font-weight: 300;
+
+        span {
+            margin-left: -11px;
+        }
+    }
+
+    .icons-container {
+
+        @include flex-row;
+        flex-wrap: wrap;
+
+        .icon-container {
+
+            @include flex-center;
+
+            width: 40px;
+            height: 40px;
+            background-color: $icon-container;
+            margin-right: 9px;
+            margin-bottom: 9px;
+            border-radius: 5%;
+        }
+
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        color: $white;
+        letter-spacing: 0.1px;
+    }
+
+}

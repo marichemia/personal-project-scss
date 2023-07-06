@@ -1344,7 +1344,7 @@ header .burger-menu .burger-border div {
   .component-6 form button {
     width: 160px;
     height: 42px;
-    margin-bottom: 42px;
+    margin-bottom: 46px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1411,6 +1411,73 @@ header .burger-menu .burger-border div {
     width: 160px;
     height: 42px;
     margin-bottom: 83px;
+  }
+}
+.component-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111111;
+  width: 100%;
+  padding-top: 42px;
+}
+.component-7 .logo {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-size: 32.5px;
+  letter-spacing: 0.1px;
+  font-weight: 300;
+}
+.component-7 .logo span {
+  margin-left: -11px;
+}
+.component-7 .icons-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.component-7 .icons-container .icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #252525;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  border-radius: 5%;
+}
+.component-7 p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 0.1px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .component-7 {
+    height: 312px;
+  }
+  .component-7 .logo {
+    margin-bottom: 44px;
+  }
+  .component-7 .logo img {
+    width: 25px;
+    height: 38px;
+  }
+  .component-7 .icons-container {
+    width: 193px;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  .component-7 .icons-container .icon-container:nth-of-type(4) {
+    margin-right: 0;
+  }
+  .component-7 p {
+    font-size: 11px;
+    margin-left: -9px;
   }
 }
 

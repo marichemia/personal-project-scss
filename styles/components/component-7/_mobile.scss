@@ -1,0 +1,32 @@
+@media #{$mobile} {
+    .component-7 {
+        height: 312px;
+
+        .logo {
+
+            margin-bottom: 44px;
+
+            img {
+                width: 25px;
+                height: 38px;
+            }
+        }
+
+        .icons-container {
+            width: 193px;
+            justify-content: center;
+            margin-bottom: 32px;
+
+            .icon-container {
+                &:nth-of-type(4) {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        p {
+            font-size: 11px;
+            margin-left: -9px;
+        }
+    }
+}
