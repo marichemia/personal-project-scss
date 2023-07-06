@@ -530,10 +530,7 @@ header .burger-menu .burger-border div {
     flex-direction: row;
     margin-left: -7px;
   }
-  .component-3 .desktop-txt .image {
-    width: 510px;
-    height: 414px;
-    background-image: url(../../../assets/component-3/computer-img.png);
+  .component-3 .desktop-txt img {
     margin-right: 92px;
   }
   .component-3 .desktop-txt .info {

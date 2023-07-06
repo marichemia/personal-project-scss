@@ -25,10 +25,7 @@
             @include flex-row;
             margin-left: -7px;
 
-            .image {
-                width: 510px;
-                height: 414px;
-                background-image: url(../../../assets/component-3/computer-img.png);
+            img {
                 margin-right: 92px;
             }
 
